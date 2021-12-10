@@ -1,0 +1,59 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    margin: auto;
+    margin-top: 25vh;
+    width: 50%;
+    display: block;
+}
+
+.form input, .form a {
+    width: 50%;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: unset;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 0px 0px 3px #00000040;
+    border: 1px solid #777;
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+.form a {
+    text-align: center;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: #121212;
+    color: #fff;
+}
+
+.hello p {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 25vh;
+    color: #121212;
+}
+
+.hello p::selection {
+    background-color: transparent;
+    color: #121212;
+}
+
+.hello a {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #121212;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
